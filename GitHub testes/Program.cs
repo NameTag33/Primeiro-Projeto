@@ -10,6 +10,8 @@ namespace GitHub_testes
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("======= Calculadora =======");
+            Console.Write("\nDigite\n [1] Para soma\n [2] Para subtrair\n [0] Para sair\n Opção: ");
         }
     }
 }
