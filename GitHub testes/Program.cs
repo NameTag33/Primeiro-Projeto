@@ -10,7 +10,7 @@ namespace GitHub_testes
     {
         static void Main(string[] args)
         {
-            int Pescolha;
+            int Pescolha, numero;
             Console.WriteLine("======= Calculadora =======");
             Console.Write("\nDigite\n [1] Para soma\n [2] Para subtrair\n [0] Para sair\n Opção: ");
             while(!int.TryParse(Console.ReadLine(), out Pescolha))
@@ -23,7 +23,7 @@ namespace GitHub_testes
                 case 1:
 
                     Console.WriteLine("Digite o numero que quer somar");
-
+                    numero = int.Parse(Console.ReadLine());
                     break;
             }
 
