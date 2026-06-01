@@ -22,7 +22,7 @@ namespace GitHub_testes
             {
                 case 1:
 
-
+                    Console.WriteLine("Digite o numero que quer somar");
 
                     break;
             }
