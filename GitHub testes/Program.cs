@@ -18,6 +18,14 @@ namespace GitHub_testes
                 Console.WriteLine("Digite apenas numeros inteiros entr [0-2]");
                 Console.Write("Nova opção: ");
             }
+            switch(Pescolha)
+            {
+                case 1:
+
+
+
+                    break;
+            }
 
         }
     }
