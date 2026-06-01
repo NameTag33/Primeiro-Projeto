@@ -24,6 +24,7 @@ namespace GitHub_testes
 
                     Console.WriteLine("Digite o numero que quer somar");
                     numero = int.Parse(Console.ReadLine());
+                    Console.WriteLine(numero);
                     break;
             }
 
